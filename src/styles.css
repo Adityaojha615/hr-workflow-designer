@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+html, body, #root { height: 100%; }
+.canvas-area { height: calc(100vh - 4rem); }
+.node-card { @apply p-3 bg-white rounded-lg shadow-sm border; }
+
+
